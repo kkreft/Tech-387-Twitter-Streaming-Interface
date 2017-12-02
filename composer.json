@@ -1,0 +1,20 @@
+{
+    "name": "twitter/tech387",
+    "description": "This is an interface for the twitter realtime api",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": { "": "src" }
+    },
+    "authors": [
+        {
+            "name": "Arslan Hajdarevic",
+            "email": "arslan.hajdarevic@tech387.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fennb/phirehose": "^1.0"
+    }
+
+}
