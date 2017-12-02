@@ -1,5 +1,5 @@
 {
-    "name": "twitter/tech387",
+    "name": "tech387-twitter/stream",
     "description": "This is an interface for the twitter realtime api",
     "type": "library",
     "license": "mit",
