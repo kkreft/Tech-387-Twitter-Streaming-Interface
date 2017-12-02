@@ -10,12 +10,7 @@ class ServiceTweets
 
     public function __construct()
     {
-        $this->streamTwitter = new StreamTwitter($this->config);
-    }
 
-    public function startService()
-    {
-        $this->streamTwitter->consume();
     }
 
 }

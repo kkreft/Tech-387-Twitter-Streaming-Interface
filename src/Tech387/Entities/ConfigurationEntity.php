@@ -10,6 +10,21 @@ class ConfigurationEntity
     private $TwitterConsumerKey;
     private $TwitterConsumerSecret;
 
+    /**
+     * ConfigurationEntity constructor.
+     * @param $OauthToken
+     * @param $OAuthSecret
+     * @param $TwitterConsumerKey
+     * @param $TwitterConsumerSecret
+     */
+    public function __construct($OauthToken, $OAuthSecret, $TwitterConsumerKey = null, $TwitterConsumerSecret = null)
+    {
+        $this->OauthToken = $OauthToken;
+        $this->OAuthSecret = $OAuthSecret;
+        $this->TwitterConsumerKey = $TwitterConsumerKey;
+        $this->TwitterConsumerSecret = $TwitterConsumerSecret;
+    }
+
 
     /**
      * @return string
