@@ -1,4 +1,4 @@
-#Tech 387 Twitter Streaming 
+# Tech 387 Twitter Streaming 
 
 A PHP Symphony interface to the Twitter Streaming api extending [Phirehose](https://github.com/fennb/phirehose).
 
