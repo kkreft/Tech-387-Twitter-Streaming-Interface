@@ -21,6 +21,10 @@ If you are building a twitter app that consumes the realtime data you will encur
  
 ## How to use it?
 
+Download via composer
+
+`composer require tech387-twitter/stream`
+
  In progress
  
 ## Support

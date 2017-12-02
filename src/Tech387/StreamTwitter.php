@@ -1,6 +1,6 @@
 <?php
 
-namespace Tech387\StreamTwitter;
+namespace Tech387;
 
 use Tech387\Entities\ConfigurationEntity;
 use OauthPhirehose;
@@ -12,11 +12,14 @@ class StreamTwitter extends OauthPhirehose
     /**
      * Subclass specific attribs
      */
-    protected $myTrackWords = array('morning', 'goodnight', 'hello', 'the');
+    protected $myTrackWords = array('906684074793639936');
 
     public function __construct(ConfigurationEntity $config)
     {
         parent::__construct($config->getOauthToken(),$config->getOAuthSecret(),Phirehose::METHOD_USER);
+        $this->URL_BASE = 'https://userstream.twitter.com/1.1/';
+        $this->consumerKey = $config->getTwitterConsumerKey();
+        $this->consumerSecret = $config->getTwitterConsumerSecret();
     }
 
     /**
@@ -31,9 +34,9 @@ class StreamTwitter extends OauthPhirehose
 
         // This is all that's required, Phirehose will detect the change and reconnect as soon as possible
         $randWord1 = $this->myTrackWords[rand(0, 3)];
-        $this->setTrack(array($randWord1));
+        $this->setFollow(array($randWord1));
 
-        echo "Eneque status::".$status."\n";
+        echo "Eneque status::".json_decode($status,true)."\n\n\n\n";
     }
 
     /**
