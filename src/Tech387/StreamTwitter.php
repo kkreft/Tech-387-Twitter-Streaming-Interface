@@ -38,7 +38,7 @@ class StreamTwitter extends OauthPhirehose
 
         // get follower ids
         $this->setFollow(
-            call_user_func_array(
+            call_user_func(
                 array(
                     $this->classCallback,
                     self::FOLLOWER_FUNC
