@@ -67,10 +67,10 @@ class TweetsCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output){
 
         $configurationEntity = new ConfigurationEntity(
-            '906684074793639936-U0bcGYGmftVKTxzFnhea9bw03ldvUfG',
-            '8tcbiqS7Q1IpURjIW8pBqiA7OJ43NrF12llu7iVtlF3XG',
-            'zsGNrYlzBTQjyWjBM4knDRQBX',
-            'cDAYKsuft8WHm1MxwEyo50LJ3wRmsQvkt4lSAGFPHjdgpe6vhl'
+            '---',//OAuth Token
+            '---',//OAuth Secret
+            '---',//Twitter Consumer Key
+            '---'//Twitter Consume rSecret
         );
 
         $stream = new ServiceTweets($configurationEntity,ServiceTweets::class);

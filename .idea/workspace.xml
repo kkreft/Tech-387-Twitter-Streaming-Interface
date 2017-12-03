@@ -14,22 +14,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceTweets.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/Sample1/src/Demo/ServiceTweets.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="492">
-                <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <first_editor relative-caret-position="379">
+                <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -37,24 +27,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="console" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/Sample1/console">
+      <file leaf-file-name="ConfigurationEntity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tech387/Entities/ConfigurationEntity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="285">
+              <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="102" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TweetsCommand.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/Sample1/src/Demo/TweetsCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="e#24#70#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -155,6 +133,41 @@
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Demo" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="twitter-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tech387" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tech387" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entities" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="twitter-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tech387" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entities" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ConfigurationEntity.php" type="88303cf5:PhpFileNode" />
+            </path>
+            <path>
+              <item name="twitter-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitter-client" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Tech387" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entities" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ConfigurationEntity.php" type="88303cf5:PhpFileNode" />
+              <item name="ConfigurationEntity" type="e2efd96b:PhpElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -198,12 +211,12 @@
       <workItem from="1512232552417" duration="308000" />
       <workItem from="1512236206017" duration="30000" />
       <workItem from="1512236241444" duration="6000" />
-      <workItem from="1512307398268" duration="891000" />
+      <workItem from="1512307398268" duration="1023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8380000" />
+    <option name="totallyTimeSpent" value="8512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -447,10 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tech387/Entities/ConfigurationEntity.php">
+    <entry file="file://$PROJECT_DIR$/examples/Sample1/src/Demo/ServiceTweets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -473,10 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/Sample1/src/Demo/ServiceTweets.php">
+    <entry file="file://$PROJECT_DIR$/src/Tech387/Entities/ConfigurationEntity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="285">
+          <caret line="19" column="102" lean-forward="false" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="102" />
           <folding />
         </state>
       </provider>
@@ -484,8 +497,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="492">
-            <caret line="119" column="0" lean-forward="true" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+          <first_editor relative-caret-position="379">
+            <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
