@@ -9,13 +9,17 @@ use Phirehose;
 class StreamTwitter extends OauthPhirehose
 {
 
-    /**
-     * Subclass specific attribs
-     */
-    protected $myTrackWords = array('906684074793639936');
+    // class with function
+    private $classCallback;
 
-    public function __construct(ConfigurationEntity $config)
+    const CALLBACK_FUNC = 'showTweets';
+    const FOLLOWER_FUNC = 'getIds';
+
+    public function __construct(ConfigurationEntity $config,$classCallback)
     {
+        // callback for resonse
+        $this->classCallback = $classCallback;
+
         parent::__construct($config->getOauthToken(),$config->getOAuthSecret(),Phirehose::METHOD_USER);
         $this->URL_BASE = 'https://userstream.twitter.com/1.1/';
         $this->consumerKey = $config->getTwitterConsumerKey();
@@ -32,11 +36,24 @@ class StreamTwitter extends OauthPhirehose
     {
         // TODO: Implement enqueueStatus() method.
 
-        // This is all that's required, Phirehose will detect the change and reconnect as soon as possible
-        $randWord1 = $this->myTrackWords[rand(0, 3)];
-        $this->setFollow(array($randWord1));
+        // get follower ids
+        $this->setFollow(
+            call_user_func_array(
+                array(
+                    $this->classCallback,
+                    self::FOLLOWER_FUNC
+                )
+            )
+        );
 
-        return $status;
+        // send status to function
+        call_user_func_array(
+            array(
+                $this->classCallback,
+                self::CALLBACK_FUNC
+            ),
+            array($status)
+        );
     }
 
     /**
